@@ -1,0 +1,61 @@
+
+html{background-image:url("../img/fondo5.jpg");
+     background-position:center;
+     background-repeat:no-repeat;
+     background-size:100% 100%;
+     background-attachment:fixed;}
+
+
+table{
+      border: solid;4px ;
+      background: red;
+      position: absolute;
+      right:10%;
+      top:20px;
+}
+
+#instrucciones {
+                width: 700px;
+                display: flex;
+                flex-direction: column;
+                font-size: 1em;
+                font-family: 'Acme', sans-serif;}
+
+
+#nombrea , #intentos {color:white;
+                      font-size: 2em;
+                      font-family: 'Acme', sans-serif;}
+
+h1{color: red;
+   font-size: 1.8em;}
+p{color: white;
+  font-size: 1.5em;}
+
+
+
+
+
+
+
+/*------------metodo utilizado para desaparecer las cartas--------------*/
+.cartaOculta{
+  opacity: 0;
+}
+
+
+.cartaMostrada{
+               opacity: 1;
+}
+td{
+  background: url("../img/dorso.jpg");
+};
+
+.info{display: flex;
+}
+
+
+
+
+
+
+
